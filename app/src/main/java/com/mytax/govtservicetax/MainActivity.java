@@ -21,7 +21,15 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, DisplayTaxActivity.class);
         EditText editText = (EditText) findViewById(R.id.edit_message);
         String message = editText.getText().toString();
-        intent.putExtra(EXTRA_MESSAGE, message);
+        float billAmount = Float.parseFloat(message);
+        float serviceTax = (float) (billAmount * 0.14);
+        float krisiCess = (float) (billAmount * 0.05);
+        float swatchBharatTax = (float) (billAmount * 0.05);
+
+        float total = billAmount + serviceTax + krisiCess + swatchBharatTax ;
+        String totalStr = total + "";
+
+        intent.putExtra(EXTRA_MESSAGE, totalStr);
         startActivity(intent);
     }
 }

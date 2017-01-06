@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file:///media/sf_vm_shared/AndroidStudioProjects/GovtServiceTax/GovtServiceTax.iml" filepath="/media/sf_vm_shared/AndroidStudioProjects/GovtServiceTax/GovtServiceTax.iml" />
-      <module fileurl="file:///media/sf_vm_shared/AndroidStudioProjects/GovtServiceTax/app/app.iml" filepath="/media/sf_vm_shared/AndroidStudioProjects/GovtServiceTax/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/govttaxcal.iml" filepath="$PROJECT_DIR$/govttaxcal.iml" />
     </modules>
   </component>
 </project>
