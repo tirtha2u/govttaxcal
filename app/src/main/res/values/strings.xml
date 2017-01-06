@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GovtServiceTax</string>
+    <string name="edit_message">Enter amount</string>
+    <string name="button_send">Send</string>
 </resources>
